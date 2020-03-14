@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(180, 180, 180);   
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: #123456;
+    margin-top: -20px;
+    padding: 10px;
+}
+.controllers #calculator {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #123456;
+    color: #fff;
+    border-radius: 10px;
+}
+.controllers #todo {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #123456;
+    color: #fff;
+    border-radius: 10px;
+}
+button:hover {
+    transform: scale(1.05);
+}
+button {
+    text-transform: uppercase;
+}
