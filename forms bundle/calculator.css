@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(180, 180, 180);
+    
+}
+.container {
+    text-align: center;
+    margin-left: 400px;
+    width: 500px;
+    height: 475px;
+    /* background-color: #03383a; */
+    background-color: #123456;
+    border: solid #87ceeb;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    color: azure;
+}
+.container .textboxes #num1 {
+    width: 450px;
+    margin-top: 10px;
+    height: 25px;
+    background-color: #87ceeb;
+    color: #123456;
+    border-radius: 10px;
+
+    
+}
+.container .textboxes #num2 {
+    width: 450px;
+    margin-top: 10px;
+    height: 25px;
+    background-color: #87ceeb;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .textboxes #result {
+    width: 450px;
+    margin-top: 10px;
+    height: 25px;
+    background-color: #87ceeb;
+    color: #123456;
+    border-radius: 10px;
+}
+hr {
+    width: 450px;
+    background-color: #6699cc;
+    height: 2px;
+}
+
+.container .controller #plus {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 12px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #minus {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #mul {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #division {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+
+.container .controller #square {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+
+.container .controller #cube {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+
+.container .controller #sqrt {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+
+.container .controller #sin {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #cos {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #tan {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #cosec {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #equal {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+.container .controller #clear {
+    width: 445px;
+    height: 50px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    background-color: #6699cc;
+    color: #123456;
+    border-radius: 10px;
+}
+button:hover {
+    transform: scale(1.05);
+}
+button {
+    text-transform: uppercase;
+}
