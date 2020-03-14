@@ -1,0 +1,105 @@
+body {
+    background-color:  #A5A6A6;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+    background-color: #415254;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    margin-left: 400px;
+    color: #fff;
+    border: 2px solid #123456;
+    border-radius: 10px ;
+    
+}
+
+.container .input  {
+    margin-top: 20px;
+    
+}
+
+.std-input {
+    margin-top: 10px;
+    border: 2px solid #5078a0;
+    border-radius: 10px ;
+    color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #415254;
+}
+
+.std-width {
+    width: 250px;
+    height: 50px;
+    margin-top: -30px;
+    
+    
+}
+
+.width-inc {
+    width: 350px;
+}
+
+.logi {
+    margin-left: 260px;
+    background-color: #384344 ;
+    color: #fff;
+    border: 2px solid #5078a0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+    
+}
+.sig {
+    color: #fff;
+    background-color: #2f939e;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.controller {
+    margin-top: 30px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.btmcontroller {
+    margin-top: 50px;
+    padding-top: 50px;
+       
+}
+#btmbutton {
+    width: 350px;
+    height: 50px;
+    color: #081618;
+    background-color: #2f939e;
+    margin-bottom: auto;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+    margin-top: -10px;
+    transform: scale(1.05);
+}
+
+.btmlog {
+    background-color: #384344;
+    width: 350px;
+    height: 50px;
+    color: rgb(197, 193, 193);
+    margin-bottom: auto;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+    
+}
+
+.btmlog:hover {
+    transform: scale(1.05);
+}
+.btmbutton:hover {
+    transform: scale(1.05);
+}

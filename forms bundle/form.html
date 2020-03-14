@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="controller std-width">
+            <button class="std-width sig">Sign Up</button>
+            <button class="std-width logi">Log In</button>
+        </div> -->
+        <h2>Sign Up for Free</h2>
+        <div class="input">
+            <input class="std-input" type="text" id="firstname" placeholder="First Name"/>
+            <input class="std-input" type="text" id="lastname" placeholder="Last Name"/><br>
+            <input class="std-input width-inc" type="email" id="email" placeholder="Email Address"/><br>
+            <input class="std-input width-inc" type="password" id="password" placeholder="Set Password"/><br>
+            <input class="std-input width-inc" type="password" id="confirmPassword" placeholder="Confirm Password"/><br>
+        </div>
+        <div class="btmcontroller">
+            <!-- <button class="std-width logi" id = 'btmbutton'>Log In</button> -->
+            <button id = 'btmbutton' onclick="validation()">Sign Up</button>
+            <br>
+            <br>
+            <button class = "btmlog" onclick="login()">Login</button>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
